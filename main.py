@@ -57,9 +57,6 @@ def play(low, high):
     choice = input("Do you want to save your score? (y/N) ")
     if choice.upper() == "Y":
         scoresave(number_of_guesses, low, high)
-        # return
-    # else:
-    #     print("Fine then.")
 
 
 def set_limit(low):
